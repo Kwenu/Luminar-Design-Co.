@@ -149,7 +149,7 @@ const Faq = () => {
           </p>
           <div className="btn-holder">
             <button class="btn btn-1 hover-filled-slide-down">
-              <span>Book a Free Consultation</span>
+              <a href="#contact"><span>Book a Free Consultation</span></a>
             </button><br /><br /><br />
           </div>
           <span class="bottom border"></span>

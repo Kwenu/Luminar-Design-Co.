@@ -68,7 +68,7 @@
 .faq-content {
   padding-top: 4rem;
   width: 50%;
-  margin: auto;
+  margin-left: 310px;
 }
 
 h1 {
@@ -214,7 +214,7 @@ button::after {
   padding: 1em;
   margin-top: -530px;
   display: flex;
-  margin-left: 800px;
+  margin-left: 790px;
   flex-direction: column;
   border: 5px solid #fefefe;
   border-top: none;

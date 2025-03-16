@@ -8,8 +8,8 @@ html {
 
 .floating-container {
   position: fixed;
-  width: 2918px;
   height: 100px;
+  width: 40px;
   bottom: 350px;
   right: 0;
   margin: 10px 25px;
@@ -58,6 +58,7 @@ html {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
+
 .floating-container .float-element {
   position: relative;
   display: block;
@@ -111,6 +112,7 @@ html {
     opacity: 1;
   }
 }
+
 @keyframes come-in {
   0% {
     -webkit-transform: translatey(100px);

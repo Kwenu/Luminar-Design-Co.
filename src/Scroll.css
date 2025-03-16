@@ -1,12 +1,12 @@
 .scroll-to-top {
   position: fixed;
-  bottom: 10px;
-  right: 14px;
+  bottom: 15px;
+  right: 1463px;
   z-index: 1000;
 }
 
 .scroll-button {
-  background-color: #2a4627;
+  background-color: #424242;
   color: white;
   border: none;
   padding: 10px 15px;

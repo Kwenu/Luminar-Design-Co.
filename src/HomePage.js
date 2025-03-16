@@ -49,7 +49,7 @@ const HomePage = () => {
             ever-evolving digital landscape.
           </p>
           <p className="description">
-            Your success is our success. <a href="#">Contact us</a> today to
+            Your success is our success. <a href="#contact">Contact us</a> today to
             discuss your project.
           </p>
         </div>

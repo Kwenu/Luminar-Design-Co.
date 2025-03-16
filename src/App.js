@@ -4,8 +4,8 @@ import Services from "./Services";
 import Aim from "./Aim";
 import Footer from "./footer";
 import Faq from "./faq";
-import Contact from "./Contact";
 import Scroll from "./Scroll";
+import ContactUs from "./ContactUs";
 import "./App.css";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
       <Aim/>
       <Services />
       <Faq/>
-      <Contact/>
+      <ContactUs/>
       <Footer />
       <Scroll />
     </div>
