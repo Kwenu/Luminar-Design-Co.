@@ -10,7 +10,7 @@ html {
   position: fixed;
   height: 100px;
   width: 40px;
-  bottom: 350px;
+  bottom: 50px;
   right: 0;
   margin: 10px 25px;
 }
@@ -154,9 +154,12 @@ html {
 
 .hero-content {
   margin-left: -60px;
-  margin-top: 30px;
+  margin-top: -130px;
   position: relative;
   z-index: 2;
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeInUp 1.5s ease-out forwards;
 }
 
 .navbar {
@@ -171,6 +174,17 @@ html {
   background: rgba(139, 138, 138, 0.6);
   border-radius: 5px;
   z-index: 2;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .logo {
@@ -278,4 +292,15 @@ html {
   width: 2px;
   height: 90px;
   background: white;
+}
+
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

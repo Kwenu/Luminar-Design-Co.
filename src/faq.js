@@ -3,7 +3,7 @@ import "./faq.css";
 
 const Faq = () => {
   return (
-    <section className="faq" id="work">
+    <section className="faq fade-in" id="work">
       <div className="faq-container">
         <div className="line4"></div>
         <p className="subheading3">Q & A</p>
@@ -136,7 +136,7 @@ const Faq = () => {
           </p>
         </details>
       </section>
-      <section className="book">
+      <section className="book fade-in">
         <div class="testimonial">
           <div class="shadow"></div>
           <span class="top border"></span>

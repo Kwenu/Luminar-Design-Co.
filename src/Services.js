@@ -11,14 +11,14 @@ import Ser8 from "./IMG11.jpeg";
 
 const Services = () => {
   return (
-    <section className="services" id="services">
+    <section className="services fade-in" id="services">
       <div className="service-container">
         <div className="st-line"></div>
         <p className="sub-title1">Our Services</p>
         <div className="st-line1"></div>
         <h2 className="title1">Web Design & Development</h2>
       </div><br /><br />
-      <section class="articles">
+      <section class="articles fade-in">
         <article>
           <div class="article-wrapper">
             <figure>
@@ -87,11 +87,9 @@ const Services = () => {
           </div>
         </article>
       </section><br /><br /><br />
-      {/* <div className="st-line"></div>
-        <p className="sub-title1">Our Services</p>
-        <div className="st-line1"></div> */}
-      <h2 className="title1">Optimised Hosting Package</h2><br /><br />
-      <section class="articles">
+
+      <h2 className="title1 fade-in">Optimised Hosting Package</h2><br /><br />
+      <section class="articles fade-in">
         <article>
           <div class="article-wrapper">
             <figure>

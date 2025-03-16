@@ -80,7 +80,7 @@ const ContactUs = () => {
   };
 
   return (
-    <div className="contact-container" id="contact">
+    <div className="contact-container fade-in" id="contact">
       <div className="contact-box">
         {/* Contact Form Section */}
         <form className="contact-form" onSubmit={handleSubmit}>

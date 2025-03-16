@@ -3,8 +3,8 @@ import "./Aim.css";
 
 const Aim = () => {
   return (
-    <section className="our-aim" id="aim">
-      <div className="container">
+    <section className="our-aim " id="aim">
+      <div className="container fade-in">
         <div className="text-content">
           <div className="line"></div>
           <p className="subheading1">Design. Goal. Objective.</p>

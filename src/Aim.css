@@ -9,12 +9,10 @@
 
 .our-aim {
   margin-left: -50px;
-  /* background-color: #131c21; */
   padding: 80px 10%;
   color: white;
   min-height: 50vh;
-  /* background: url("./BG5.jpg") no-repeat center/cover; */
-  background: linear-gradient(#1B262C, #000000);
+  background: linear-gradient(#1B262C, #000000) fixed;
   z-index: 2;
 }
 
